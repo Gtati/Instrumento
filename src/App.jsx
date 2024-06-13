@@ -9,9 +9,7 @@ function App() {
     <>
     <Welcome></Welcome>
     <Routes>
-    
       <Route path='/Finances' element={<Finances/>}/>
-
       </Routes>
     </>
   )

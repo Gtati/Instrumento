@@ -6,10 +6,13 @@ import { Welcome } from '../Welcome/Welcome'
 export const Finances = () => {
 
   const [gasto, setGasto] = useState("gasto1")
-  const handleBills = () => {
-   
+  const [precio, setPrecio] = useState("precio1")
+  const [list, setList] = useState("list1")
+
+  const handleBills = (e) => {
+  
     setGasto();
-    <ListFinances to={'/'} content={Welcome}/>
+
   }
 
   return (
